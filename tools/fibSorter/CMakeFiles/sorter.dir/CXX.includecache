@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/seanzhang/cmake_practise/tools/fibSorter/main.cpp
+iostream
+-
+vector
+-
+SortIntegers.h
+/home/seanzhang/cmake_practise/tools/fibSorter/SortIntegers.h
+
+include/SortIntegers.h
+

@@ -1,0 +1,6 @@
+set(CURSES_NEED_NCURSES TRUE)
+find_package(Curses)
+#include_directories(${CURSES_INCLUDE_DIR})
+add_executable(cursesexample main.cpp)
+target_link_libraries(cursesexample  ${CURSES_LIBRARIES})
+install(TARGETS cursesexample DESTINATION bin)

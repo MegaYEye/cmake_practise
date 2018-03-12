@@ -1,0 +1,6 @@
+include_directories(${CMAKE_SOURCE_DIR}/include)
+add_executable(fibSorter main.cpp)
+set_property(TARGET fibSorter PROPERTY CXX_STANDARD 14)
+target_link_libraries(fibSorter SortInteger)
+install(TARGETS fibSorter DESTINATION bin)
+install(FILES ${CMAKE_SOURCE_DIR}/include/SortIntegers.h DESTINATION include )

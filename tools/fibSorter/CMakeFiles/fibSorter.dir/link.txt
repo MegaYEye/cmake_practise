@@ -1,0 +1,1 @@
+/usr/bin/g++      CMakeFiles/fibSorter.dir/main.cpp.o  -o ../../bin/fibSorter -rdynamic ../../lib/libSortInteger.a 

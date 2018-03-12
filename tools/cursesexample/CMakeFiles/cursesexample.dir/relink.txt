@@ -1,0 +1,1 @@
+/usr/bin/g++      CMakeFiles/cursesexample.dir/main.cpp.o  -o CMakeFiles/CMakeRelink.dir/cursesexample -rdynamic -lncurses -lform 
